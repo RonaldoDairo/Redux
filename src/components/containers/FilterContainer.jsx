@@ -16,6 +16,5 @@ const mapDispatchToProps = (dispatch, ownProps) => {
         }
     }
 }
-
 const FilterContainer = connect(mapStateToProps, mapDispatchToProps)(Filter);
 export default FilterContainer

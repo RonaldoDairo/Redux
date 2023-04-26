@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import AppReduxSaga from './AppReduxSaga';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 import { createAppStore, createAppAsyncStore } from './store/config/storeConfig'
  
 // We create the App Store
-let appStore = createAppStore()
+// let appStore = createAppStore()
 let appAsyncStore = createAppAsyncStore()
 
 ReactDOM.render(
